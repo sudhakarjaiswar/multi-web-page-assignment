@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(21, 20, 20);
+}
+
+/* --------Main-section-----*/
+
+.beatsLogo {
+    margin-top: 20px;
+}
+.mainImage {
+    height: 400px;
+    margin-right: 50px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+.list {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 100px;
+    height: 50px;
+    width: 500px;
+
+}
+.main-nav {
+    display: flex;
+    gap: 50px;
+}
+.main-nav li {
+    font-size: 20px;
+    font-weight: 700;
+}
+.main-nav li a {
+    text-decoration: none;
+    color: azure;
+}
+.button1 {
+    height: 20px;
+    margin-left: 50px;
+    float: right;
+    padding: 7px 30px;
+    padding-bottom: 22px;
+    background-color: rgb(44, 47, 47);
+    color: aliceblue;
+    border-radius: 7px;
+    font-weight: 600;
+}
+/* ---------OnEar-section-------*/
+h1 {
+    color: rgb(76, 71, 71);
+    font-size: 50px;
+    margin-left: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+h4 {
+    margin: 20px 0;
+}
+.section {
+    float: right;
+    margin-right: 400px;
+    margin-top: -20%;
+    
+}
+.ear-section {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(44, 47, 47);
+    height: 40px;
+    background-color: rgb(44, 47, 47);
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.ear-section i {
+    margin-top: 10px;
+}
+.ear-section h3 {
+    margin-top: 10px;
+}
+.ear-section h4 {
+    margin-top: 10px;
+}
+.section-ear {
+    color: aliceblue;
+}
+.paragraph {
+    height: px;
+    width: 300px;
+    color: rgb(247, 245, 241);
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+/*-------logo-section----*/
+.logo-section {
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    column-gap: 120px;
+}
+.appleLogo,
+.spotifyLogo,
+.amazonLogo,
+.youtubeLogo {
+    height: 22px;
+    width: 100px;
+}
+/*-------Specs-section----*/
+
+.specs {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.specs1 {
+    margin-left: 20px;
+}
+.specs4 {
+    margin-left: 30px;
+}
+
+.specs-section {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.heading1 {
+    color: rgb(76, 71, 71);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.section-specs {
+
+}
+/*-------Case-section----*/
+.section-case1 {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(44, 47, 47);
+    height: 40px;
+    background-color: rgb(44, 47, 47);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 8px;
+}
+.section-case1 i {
+    font-size: 25px;
+}
+.section-case1 h4 {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+    
+.caseImage {
+    height: 250px;
+    width: 200px;
+}
+.paragraph3 {
+    color: aliceblue;
+}
+.case-p {
+    height: 350px;
+    width: 150px;
+    padding-top: 50px;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+.paragraph3 {
+    line-height: 25px;
+}
+.section-case {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+/*-----buyNowSectionImage-----*/
+.section-case2 {
+    height: 300px;
+    width: 80%;
+    padding-top: 5%;
+    margin-left: 10%;
+    border: 1px solid rgb(44, 47, 47);
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    background-color: rgb(44, 47, 47);
+    border-radius: 10px;
+
+}
+.buynow {
+    color: aliceblue;
+    padding-top: 4%;
+}
+.buynow1 {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.buynow1 i {
+    margin-top: 8px;
+    font-size: 20px;
+}
+.buynow1 h4 {
+    margin-top: 10px;
+}
+.buyNowSectionImage {
+    height: 200px;
+    width: 250px;
+}
+.buynow h3 {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.buynow p {
+    margin-bottom: 15px;
+}
+
+/*---------style-section--------*/
+
+.heading2 {
+    color: rgb(76, 71, 71);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+.black1 {
+    border: 1px solid rgb(44, 47, 47);
+    background-color: rgb(44, 47, 47);
+    border-radius: 10px;
+    color: aliceblue;
+    height: 250px;
+    width: 220px;
+    overflow: visible;
+}
+.black1 p {
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.black1 i {
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 6px;
+    margin-top: -15px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.black-image {
+    height: 200px;
+    width: 180px;
+    margin-top: -90px;
+    padding-left: 50px;
+}
+
+.black-red {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.night-blue {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 150px;
+}
+.gray {
+    margin-top: 150px;
+    margin-left: 360px;
+}
+
+/*---------Footer--------*/
+.footer {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 200px;
+}
+.beatsLogo1 {
+    margin-top: 0;
+}
+.Products h3,
+.Supports h3 {
+    margin-bottom: 20px;
+}
+.Products ul,
+.Supports ul {
+    list-style: none;
+    
+}
+.Products ul li,
+.Supports ul li {
+    padding: 2px;
+}
+ 
+.Email h4 {
+    margin: 5px;
+    padding: 3px 70px;
+    padding-left: 0;
+    width: 160px;
+
+}
+.footer-p {
+    display: flex;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 7px 40px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.footer-p i {
+    margin-right: 30px;
+}
+
+.Email {
+    display: flex;
+    border: 1px solid rgb(44, 47, 47);
+    margin-bottom: 40px;
+    background-color: rgb(44, 47, 47);
+    border-radius: 5px;
+}
+
+.footer-icon i {
+    padding: 10px;
+}

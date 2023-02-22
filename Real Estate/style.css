@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Image/mainBackground.png);
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+}
+.main-header {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo {
+    height: 45px;
+    width: 150px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 120px;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+hr {
+    margin-top: -20px;
+    width: 100%;
+}
+.main-header {
+    margin-top: 150px;
+}
+
+.home-header {
+    margin-top: 80px;
+}
+.home-header h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.home-header p {
+    margin-bottom: 20px;
+}
+button {
+    margin-bottom: 20px;
+}
+.logo-list {
+    margin-top: 270px;
+}
+.logo-list ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(210, 194, 194);
+    border-radius: 10px;
+    background-color: azure;
+    color: blueviolet;
+    padding: 15px 2px;
+}
+/* --------Cardimage-section----- */
+
+.heading1 {
+    text-align: center;
+    color: black;
+    margin: 50px;
+}
+.cardImage {
+    height: 450px;
+    width: 400px;
+    border-radius: 20px;
+}
+.cardImage1-detail {
+    display: flex;
+    gap: 80px;
+    justify-content: space-evenly;
+    border: 1px solid rgb(210, 231, 231);
+    border-radius: 20px;
+    background-color: rgb(233, 224, 224);
+    width: 350px;
+    margin: 0 20px;
+    padding: 20px;
+    position: absolute;
+    margin-top: -60px;
+}
+.cardImage1-detail h4 {
+    color: black;
+    margin-top: 8px;
+}
+span {
+    color: blueviolet;
+    line-height: 40px;
+    
+}
+.cardImage1, 
+.cardImage2,
+.cardImage3 {
+    display: flex;
+    gap: 5px;
+    margin: 20px;
+}
+
+.button2 {
+    margin-top: 14px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+}
+.cardImage2 {
+    margin-top: 200px;
+}
+.cardImage3 {
+    margin-top: 200px;
+}
+
+/* ------Featureimage-Section------- */
+
+.box {
+    height: 300px;
+    width: 370px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 0 0 20px 0;
+}
+
+.Image-features {
+    margin-top: 300px;
+}
+.featuresImage1 {
+    display: flex;
+    gap: 150px;
+}
+
+.featuresImage {
+    height: 350px;
+    width: 320px;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.text-feature h1 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.text-feature p {
+    color: black;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.featuresImage2 {
+    display: flex;
+    gap: 150px;
+    margin-top: 200px;
+}
+.featuresImage5 {
+    height: 350px;
+    width: 320px;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 90px;
+    border-radius: 20px;
+}
+.box1 {
+    height: 300px;
+    width: 500px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 20px 0 0 20px;
+}
+.text-feature1 h1 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.text-feature1 p {
+    color: black;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+/* ------Subscribe-Section------- */
+
+.subscribe-section {
+    margin-top: 100px;
+    border: 1px solid blue;
+    height: 400px;
+    width: 1000px;
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.heading-section h1 {
+    color: white;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.heading-section p {
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.input-section {
+    margin-top: 20px;
+}
+.Email {
+    width: 500px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+.button3 {
+    margin-top: 14px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+}
+
+/* --------Footer--------- */
+
+footer {
+    background-color: rgb(234, 228, 221);
+    height: 300px;
+    margin-top: 50px;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons {
+    margin-top: 20px;
+}
+.facebook,
+.twitter,
+.Instagram {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+.icons p {
+    margin-top: 20px;
+    color: black;
+}
+
+.Location,
+.Contact,
+.login {
+    color: black;
+}
+.Location h3,
+.Contact h3,
+.login h3 {
+    margin-bottom: 20px;
+}
+
+.Location ul,
+.Contact ul,
+.login ul {
+    list-style: none;
+}
+.Location li,
+.Contact li,
+.login li {
+    margin: 18px 0;
+}

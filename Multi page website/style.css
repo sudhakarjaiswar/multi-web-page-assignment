@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+header {
+    background-color: rgb(247, 247, 243);
+    color: black;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin: 10px 120px;
+}
+
+.ul-list ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 30px 110px;
+    color: black;
+}
+.Appointment-section {
+    margin: 150px 120px;
+}
+.Appointment-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.Appointment-section p {
+    margin-bottom: 20px;
+}
+.button1 {
+    margin-top: 14px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid darkkhaki;
+    border-radius: 20px;
+    color: white;
+    background-color: darkkhaki;
+}
+.bottomAngle {
+    margin-left: 270px;
+}
+
+.doctor {
+    display: flex;
+}
+.box {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    background-color: darkkhaki;
+    margin-top: 28%;
+}
+.doctor-image {
+    height: 700px;
+    width: 400px;
+    position: absolute;
+    margin-top: -48%;
+}
+
+/* ------Section-Part------ */
+
+section {
+    background-color: rgb(247, 247, 243);
+    margin-top: 100px;
+}
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
+.section2 {
+    text-align: center;
+    margin-top: 250px;
+}
+.text-section h3 {
+    color: rgb(200, 200, 170);
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.text-section p {
+    color: black;
+    margin-bottom: 25px;
+}
+.button2 {
+    margin: 20px;
+    margin-bottom: 150px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: darkkhaki;
+    background-color: white;
+}
+span {
+    color: black;
+}
+
+/* ------Footer-Part------ */
+footer {
+    background-color: rgb(247, 247, 243);
+    margin-top: 200px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    text-align: center;
+    margin-top: 200px;
+    border: 1px solid black;
+    height: 430px;
+    width: 400px;
+    margin-left: 35%;
+}
+h2 {
+    margin: 15px;
+    color: black;
+}
+label {
+    color: black;
+    margin-right: 270px;
+    
+}
+#name,
+#email {
+    padding: 8px 150px 8px 8px;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 10px;
+}
+#message {
+    padding: 8px 150px 60px 8px;
+    border-radius: 20px;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.button3 {
+    margin-top: 14px;
+    padding: 10px 130px;
+    font-size: 20px;
+    border: 1px solid darkkhaki;
+    border-radius: 15px;
+    color: white;
+    background-color: darkkhaki;
+    margin-bottom: 100px;
+}
